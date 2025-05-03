@@ -1,1 +1,3 @@
 from bertopic import BERTopic
+import re
+
