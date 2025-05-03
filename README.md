@@ -7,10 +7,12 @@ This is a local Python-based app that summarizes text and extracts key topics us
 <img width="813" alt="Screenshot 2025-05-03 at 11 46 13 PM" src="https://github.com/user-attachments/assets/ef7b747b-430b-4f3b-8e6e-19e345033207" />
 
 can sumrize text by copy and paset
-<img width="834" alt="Screenshot 2025-05-03 at 11 39 31 PM" src="https://github.com/user-attachments/assets/ed6c75db-aefc-400f-8430-d8a49c88d27c" />
+<img width="806" alt="Screenshot 2025-05-03 at 11 47 33 PM" src="https://github.com/user-attachments/assets/f3fc139f-0760-4c64-9c48-651b029c96c3" />
+
 
 and read txt file also
-<img width="788" alt="Screenshot 2025-05-03 at 9 58 01 AM" src="https://github.com/user-attachments/assets/5ed5a976-08e3-46e1-adb4-70a00f43f175" />
+<img width="813" alt="Screenshot 2025-05-03 at 11 46 13 PM" src="https://github.com/user-attachments/assets/183f7449-dc2a-402d-aa73-035c279309c0" />
+
 
 
 ## 🚀 Features
@@ -64,6 +66,9 @@ streamlit run app.py
 ├── topic_extractor.py     # BERTopic logic
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project description
+
+<img width="788" alt="Screenshot 2025-05-03 at 9 58 01 AM" src="https://github.com/user-attachments/assets/9fcee163-dc54-4fd4-a165-48829c668227" />
+
 
 
 ✍️ Authors
