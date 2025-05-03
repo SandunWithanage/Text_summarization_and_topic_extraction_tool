@@ -4,6 +4,15 @@ This is a local Python-based app that summarizes text and extracts key topics us
 
 ---
 
+<img width="813" alt="Screenshot 2025-05-03 at 11 46 13 PM" src="https://github.com/user-attachments/assets/ef7b747b-430b-4f3b-8e6e-19e345033207" />
+
+can sumrize text by copy and paset
+<img width="834" alt="Screenshot 2025-05-03 at 11 39 31 PM" src="https://github.com/user-attachments/assets/ed6c75db-aefc-400f-8430-d8a49c88d27c" />
+
+and read txt file also
+<img width="788" alt="Screenshot 2025-05-03 at 9 58 01 AM" src="https://github.com/user-attachments/assets/5ed5a976-08e3-46e1-adb4-70a00f43f175" />
+
+
 ## 🚀 Features
 
 - ✨ Summarize long documents
@@ -25,17 +34,28 @@ This is a local Python-based app that summarizes text and extracts key topics us
 
 ## ⚙️ Installation
 
+## 🔧 How to Run
+
+1. Clone the repo or download the files  
+2. Open a terminal and go into the project folder  
+3. Run the following:
+
+
 Make sure you have Python 3.8+ installed.
 
 
 git clone https://github.com/your-username/text-summarizer-topic-extractor.git
 cd text-summarizer-topic-extractor
+
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
 ▶️ How to Run
 
 streamlit run app.py
+
+
 📂 Folder Structure
 
 .
@@ -44,68 +64,20 @@ streamlit run app.py
 ├── topic_extractor.py     # BERTopic logic
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project description
+
+
 ✍️ Authors
 
-Sandun Withanage
-Group Member 1
-Group Member 2
 
-Let me know the names of your group members if you want them added.
-
----
-
-### 📦 `requirements.txt`
-
-Here's a starter `requirements.txt` file:
-
-
-pip freeze > requirements.txt
-Do you want me to also write a .gitignore file for Python projects?
-
-You said:
-this not clear
-ChatGPT said:
-Thanks, let me simplify everything step-by-step for you. You're trying to:
-
-✅ Upload your local Text Summarization and Topic Extraction project to GitHub
-✅ Include a clear README.md
-✅ Include a requirements.txt file
-
-✅ Step 1: Create These Two Files
-📄 README.md (copy this into a new file named README.md)
-
-# 🧠 Text Summarization and Topic Extraction Tool
-
-A simple local app that summarizes input text and extracts main topics using Hugging Face Transformers and BERTopic. Built with Streamlit.
-
-## 🔧 How to Run
-
-1. Clone the repo or download the files  
-2. Open a terminal and go into the project folder  
-3. Run the following:
-
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-📦 Requirements
-
-All dependencies are in requirements.txt.
-
-🛠️ Features
-
-Text summarization using Hugging Face models
-Topic extraction using BERTopic
-Streamlit interface
-100% local (no internet needed after installing models)
-👨‍💻 Authors
-
-Sandun Withanage
-Member 1 Name
-Member 2 Name
+Thank you..
+Mr. Ashan Priyadarshana
+NSBM Green University
+members,
+SandunWithanage
+HasheniPerera
+ThiuniThimesha
+........................................................................................................
 
 
 
-pip freeze > requirements.txt
 
