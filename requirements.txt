@@ -1,0 +1,12 @@
+streamlit
+transformers
+torch
+bertopic
+scikit-learn
+spacy
+numpy
+pandas
+sentence-transformers
+umap-learn
+hdbscan
+
