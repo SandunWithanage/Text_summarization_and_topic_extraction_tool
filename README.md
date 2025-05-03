@@ -1,6 +1,3 @@
-# Text_summarization_and_topic_extraction_tool
-summarizes long texts and extracts key topics using Hugging Face summarization pipeline
-
 # 🧠 Text Summarization and Topic Extraction Tool
 
 This is a local Python-based app that summarizes text and extracts key topics using state-of-the-art NLP models like Hugging Face transformers and BERTopic. It uses a simple Streamlit interface for ease of use.
