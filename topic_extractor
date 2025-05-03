@@ -1,42 +1,15 @@
 from bertopic import BERTopic
 import re
 
-def extract_topics(text, embedding_model=None):
-    """
-    Extracts topics from input text using BERTopic.
-
-    Parameters:
-        text (str): The input text to analyze.
-        embedding_model (str or object, optional): Custom embedding model to use.
-
-    Returns:
-        topic_model (BERTopic): The trained BERTopic model.
-        topics (list): List of topic indices for each sentence.
-        sentences (list): The list of input sentences.
-    """
-    print("[INFO] Starting topic extraction...")
-
-    # Step 1: Split text into sentences
-    print("[INFO] Splitting text into sentences...")
+def extract_topics(text):
+    # More robust sentence splitting using regex (handles punctuation)
     sentences = re.split(r'(?<=[.!?])\s+', text.strip())
-    sentences = [s for s in sentences if s]  # Remove empty strings
-
-    print(f"[INFO] Number of sentences found: {len(sentences)}")
-
-    # Step 2: Initialize the BERTopic model
-    print("[INFO] Initializing BERTopic model...")
-    topic_model = BERTopic(embedding_model=embedding_model) if embedding_model else BERTopic()
-
-    # Step 3: Fit the model to the sentences
-    print("[INFO] Fitting the model to the sentences...")
+    sentences = [s for s in sentences if s]  # Remove any empty strings
+    
+    # Initialize the topic model (you can customize embedding_model if needed)
+    topic_model = BERTopic()
+    
+    # Fit the model on sentences
     topics, _ = topic_model.fit_transform(sentences)
-
-    # Step 4: Display extracted topics and frequencies
-    print("[INFO] Extracted topics and frequencies:")
-    topic_info = topic_model.get_topic_info()
-    print(topic_info)
-
+    
     return topic_model, topics, sentences
-
-
-
