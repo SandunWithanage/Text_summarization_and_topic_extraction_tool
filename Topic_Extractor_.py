@@ -13,3 +13,4 @@ def extract_topics(text):
     topics, _ = topic_model.fit_transform(sentences)
     
     return topic_model, topics, sentences
+    
