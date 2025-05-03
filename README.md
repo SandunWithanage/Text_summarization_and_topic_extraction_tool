@@ -4,7 +4,8 @@ This is a local Python-based app that summarizes text and extracts key topics us
 
 ---
 
-<img width="813" alt="Screenshot 2025-05-03 at 11 46 13 PM" src="https://github.com/user-attachments/assets/ef7b747b-430b-4f3b-8e6e-19e345033207" />
+<img width="834" alt="Screenshot 2025-05-03 at 11 39 31 PM" src="https://github.com/user-attachments/assets/79b1234a-3417-4f19-b0b6-24702fb33a2f" />
+
 
 can sumrize text by copy and paset
 <img width="806" alt="Screenshot 2025-05-03 at 11 47 33 PM" src="https://github.com/user-attachments/assets/f3fc139f-0760-4c64-9c48-651b029c96c3" />
