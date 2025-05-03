@@ -13,6 +13,6 @@ def summarize_text(text, max_length=130, min_length=30):
     if len(text) > 3500:
         text = text[:3500] 
          def  summary = summarizer(text, max_length=max_length, min_length=min_length, do_sample=False)
-        
+         summary = summarizer(text, max_length=max_length, min_length=min_length, do_sample=False)
 
 
