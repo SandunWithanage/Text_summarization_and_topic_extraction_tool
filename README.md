@@ -79,9 +79,9 @@ Thank you..
 Mr. Ashan Priyadarshana
 NSBM Green University
 members,
-SandunWithanage
-HasheniPerera
-ThiuniThimesha
+JMHT Perera - Test Summarizer 
+GTT Gimhani - Topic  Extractor
+WSR Withanage - Streamlit UI and connecting
 ........................................................................................................
 
 
