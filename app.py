@@ -1,14 +1,10 @@
-# streamlit ui
-
 import streamlit as st
 import torch
 from summarizer import summarize_text
 from bertopic import BERTopic
-from summarizer import summarize_text
-from topic_extractor import extract_topics
 
+# Prevent torch class warning
 torch._classes = {}
-
 
 # === Helper function to group documents by topic ===
 def get_documents_per_topic(topics, documents):
@@ -42,9 +38,14 @@ if uploaded_file:
 if st.button("Summarize & Extract Topics"):
     if input_text.strip():
         with st.spinner("Summarizing..."):
-            summary = summarize_text(input_text)
+            summary, original_wc, summary_wc, num_chunks = summarize_text(input_text)
             st.subheader("📝 Summary")
             st.write(summary)
+
+            st.markdown("**📊 Summary Statistics**")
+            st.write(f"🔹 Original Word Count: {original_wc}")
+            st.write(f"🔹 Summary Word Count: {summary_wc}")
+            st.write(f"🔹 Chunks Processed: {num_chunks}")
 
         with st.spinner("Extracting topics..."):
             model, topics, sentences = extract_topics(input_text)
@@ -57,7 +58,7 @@ if st.button("Summarize & Extract Topics"):
                     st.write(model.get_topic(row['Topic']))
 
             st.subheader("🔎 Clickable Topic Explorer")
-            topic_docs = get_documents_per_topic(topics, sentences) # Use the helper function
+            topic_docs = get_documents_per_topic(topics, sentences)
             for topic, docs in topic_docs.items():
                 if topic != -1:
                     with st.expander(f"Topic {topic}"):
