@@ -12,6 +12,13 @@ can sumrize text by copy and past and read txt file also
 
 
 
+Output like this
+<img width="857" alt="Screenshot 2025-05-06 at 9 50 50 PM" src="https://github.com/user-attachments/assets/70f9c914-5bee-4c15-9d6b-cae0c3ded2e8" />
+<img width="841" alt="Screenshot 2025-05-06 at 9 52 05 PM" src="https://github.com/user-attachments/assets/0c93f87a-1c81-4ff2-9778-f372f345df4b" />
+<img width="550" alt="Screenshot 2025-05-06 at 9 51 20 PM" src="https://github.com/user-attachments/assets/e5034c1a-0323-4bee-8cb7-383e67e39a0d" />
+
+
+
 
 ## 🚀 Features
 
