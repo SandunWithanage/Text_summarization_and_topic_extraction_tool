@@ -7,13 +7,9 @@ This is a local Python-based app that summarizes text and extracts key topics us
 <img width="834" alt="Screenshot 2025-05-03 at 11 39 31 PM" src="https://github.com/user-attachments/assets/79b1234a-3417-4f19-b0b6-24702fb33a2f" />
 
 
-can sumrize text by copy and paset
+can sumrize text by copy and past and read txt file also
 <img width="857" alt="Screenshot 2025-05-06 at 9 50 31 PM" src="https://github.com/user-attachments/assets/ba661ef9-3f48-4bc7-860c-83b881524227" />
 
-
-
-and read txt file also
-<img width="813" alt="Screenshot 2025-05-03 at 11 46 13 PM" src="https://github.com/user-attachments/assets/183f7449-dc2a-402d-aa73-035c279309c0" />
 
 
 
