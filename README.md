@@ -8,7 +8,8 @@ This is a local Python-based app that summarizes text and extracts key topics us
 
 
 can sumrize text by copy and paset
-<img width="806" alt="Screenshot 2025-05-03 at 11 47 33 PM" src="https://github.com/user-attachments/assets/f3fc139f-0760-4c64-9c48-651b029c96c3" />
+<img width="857" alt="Screenshot 2025-05-06 at 9 50 31 PM" src="https://github.com/user-attachments/assets/ba661ef9-3f48-4bc7-860c-83b881524227" />
+
 
 
 and read txt file also
